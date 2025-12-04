@@ -17,12 +17,6 @@ A small personal portfolio website showcasing an **interactive 3D setup** built 
 
 ---
 
-## 🎬 Blender Workflow Demo
-
-Check out this GIF showing how the 3D model was created in Blender:
-
-![Blender Demo](assets/blender-demo.gif)
-
 ---
 
 ## 📂 Project Structure
@@ -76,11 +70,6 @@ The static output will be generated in `dist/`, ready to be deployed to any stat
 - `script.js` expects the model to be at `models/Setup_Gamer_Project9.glb`. If you rename the file, update the path in `script.js`.
 - The project uses module imports (`import * as THREE from 'three'`) so running a dev server (Vite) or a production build is required — opening `index.html` via `file://` may not work.
 
-## 🌐 Website Preview
-
-Here’s how the portfolio page looks:
-
-![Page Preview](assets/Captura de pantalla 2025-12-03 220306.png)
 
 ## Troubleshooting
 - If the model doesn't load, check the browser console for network errors. Ensure the `.glb` file is present in `models/` and accessible.
@@ -97,8 +86,3 @@ Here’s how the portfolio page looks:
 - 🧭 Features: interactive 3D viewer, rotate/recolor/reset controls, responsive layout, dark mode.
 - 🗂️ Files: `index.html`, `styles.css`, `script.js`, `models/Setup_Gamer_Project9.glb` (placeholder), `assets/Untitled-removebg-preview.png` (placeholder).
 - ⚙️ Run: `npm install` then `npm run dev` (Vite dev server). Build with `npm run build` to produce `dist/` for deployment.
-## Blender Workflow Demo
-
-Here’s a small GIF showing how the 3D model was created in Blender:
-
-![Blender Demo](assets/blender-demo.gif)
